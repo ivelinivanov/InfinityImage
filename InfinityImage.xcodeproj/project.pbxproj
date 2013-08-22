@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55C0EA4F17C64D3800DA6DA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C0EA4E17C64D3800DA6DA8 /* Foundation.framework */; };
+		55C0EA5117C64D3800DA6DA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C0EA5017C64D3800DA6DA8 /* CoreGraphics.framework */; };
+		55C0EA5317C64D3800DA6DA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C0EA5217C64D3800DA6DA8 /* UIKit.framework */; };
+		55C0EA5917C64D3800DA6DA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55C0EA5717C64D3800DA6DA8 /* InfoPlist.strings */; };
+		55C0EA5B17C64D3800DA6DA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C0EA5A17C64D3800DA6DA8 /* main.m */; };
+		55C0EA5F17C64D3800DA6DA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C0EA5E17C64D3800DA6DA8 /* AppDelegate.m */; };
+		55C0EA6217C64D3800DA6DA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C0EA6017C64D3800DA6DA8 /* Main.storyboard */; };
+		55C0EA6517C64D3800DA6DA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C0EA6417C64D3800DA6DA8 /* ViewController.m */; };
+		55C0EA6717C64D3800DA6DA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C0EA6617C64D3800DA6DA8 /* Images.xcassets */; };
+		55C0EA6E17C64D3800DA6DA8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C0EA6D17C64D3800DA6DA8 /* XCTest.framework */; };
+		55C0EA6F17C64D3800DA6DA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C0EA4E17C64D3800DA6DA8 /* Foundation.framework */; };
+		55C0EA7017C64D3800DA6DA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C0EA5217C64D3800DA6DA8 /* UIKit.framework */; };
+		55C0EA7817C64D3800DA6DA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55C0EA7617C64D3800DA6DA8 /* InfoPlist.strings */; };
+		55C0EA7A17C64D3800DA6DA8 /* InfinityImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C0EA7917C64D3800DA6DA8 /* InfinityImageTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55C0EA7117C64D3800DA6DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55C0EA4317C64D3800DA6DA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55C0EA4A17C64D3800DA6DA8;
+			remoteInfo = InfinityImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55C0EA4B17C64D3800DA6DA8 /* InfinityImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinityImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C0EA4E17C64D3800DA6DA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55C0EA5017C64D3800DA6DA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55C0EA5217C64D3800DA6DA8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55C0EA5617C64D3800DA6DA8 /* InfinityImage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InfinityImage-Info.plist"; sourceTree = "<group>"; };
+		55C0EA5817C64D3800DA6DA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55C0EA5A17C64D3800DA6DA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55C0EA5C17C64D3800DA6DA8 /* InfinityImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InfinityImage-Prefix.pch"; sourceTree = "<group>"; };
+		55C0EA5D17C64D3800DA6DA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55C0EA5E17C64D3800DA6DA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55C0EA6117C64D3800DA6DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55C0EA6317C64D3800DA6DA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		55C0EA6417C64D3800DA6DA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55C0EA6617C64D3800DA6DA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		55C0EA6C17C64D3800DA6DA8 /* InfinityImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfinityImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C0EA6D17C64D3800DA6DA8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		55C0EA7517C64D3800DA6DA8 /* InfinityImageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InfinityImageTests-Info.plist"; sourceTree = "<group>"; };
+		55C0EA7717C64D3800DA6DA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55C0EA7917C64D3800DA6DA8 /* InfinityImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfinityImageTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55C0EA4817C64D3800DA6DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C0EA5117C64D3800DA6DA8 /* CoreGraphics.framework in Frameworks */,
+				55C0EA5317C64D3800DA6DA8 /* UIKit.framework in Frameworks */,
+				55C0EA4F17C64D3800DA6DA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C0EA6917C64D3800DA6DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C0EA6E17C64D3800DA6DA8 /* XCTest.framework in Frameworks */,
+				55C0EA7017C64D3800DA6DA8 /* UIKit.framework in Frameworks */,
+				55C0EA6F17C64D3800DA6DA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55C0EA4217C64D3800DA6DA8 = {
+			isa = PBXGroup;
+			children = (
+				55C0EA5417C64D3800DA6DA8 /* InfinityImage */,
+				55C0EA7317C64D3800DA6DA8 /* InfinityImageTests */,
+				55C0EA4D17C64D3800DA6DA8 /* Frameworks */,
+				55C0EA4C17C64D3800DA6DA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55C0EA4C17C64D3800DA6DA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55C0EA4B17C64D3800DA6DA8 /* InfinityImage.app */,
+				55C0EA6C17C64D3800DA6DA8 /* InfinityImageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55C0EA4D17C64D3800DA6DA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55C0EA4E17C64D3800DA6DA8 /* Foundation.framework */,
+				55C0EA5017C64D3800DA6DA8 /* CoreGraphics.framework */,
+				55C0EA5217C64D3800DA6DA8 /* UIKit.framework */,
+				55C0EA6D17C64D3800DA6DA8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55C0EA5417C64D3800DA6DA8 /* InfinityImage */ = {
+			isa = PBXGroup;
+			children = (
+				55C0EA5D17C64D3800DA6DA8 /* AppDelegate.h */,
+				55C0EA5E17C64D3800DA6DA8 /* AppDelegate.m */,
+				55C0EA6017C64D3800DA6DA8 /* Main.storyboard */,
+				55C0EA6317C64D3800DA6DA8 /* ViewController.h */,
+				55C0EA6417C64D3800DA6DA8 /* ViewController.m */,
+				55C0EA6617C64D3800DA6DA8 /* Images.xcassets */,
+				55C0EA5517C64D3800DA6DA8 /* Supporting Files */,
+			);
+			path = InfinityImage;
+			sourceTree = "<group>";
+		};
+		55C0EA5517C64D3800DA6DA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55C0EA5617C64D3800DA6DA8 /* InfinityImage-Info.plist */,
+				55C0EA5717C64D3800DA6DA8 /* InfoPlist.strings */,
+				55C0EA5A17C64D3800DA6DA8 /* main.m */,
+				55C0EA5C17C64D3800DA6DA8 /* InfinityImage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55C0EA7317C64D3800DA6DA8 /* InfinityImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				55C0EA7917C64D3800DA6DA8 /* InfinityImageTests.m */,
+				55C0EA7417C64D3800DA6DA8 /* Supporting Files */,
+			);
+			path = InfinityImageTests;
+			sourceTree = "<group>";
+		};
+		55C0EA7417C64D3800DA6DA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55C0EA7517C64D3800DA6DA8 /* InfinityImageTests-Info.plist */,
+				55C0EA7617C64D3800DA6DA8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55C0EA4A17C64D3800DA6DA8 /* InfinityImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C0EA7D17C64D3800DA6DA8 /* Build configuration list for PBXNativeTarget "InfinityImage" */;
+			buildPhases = (
+				55C0EA4717C64D3800DA6DA8 /* Sources */,
+				55C0EA4817C64D3800DA6DA8 /* Frameworks */,
+				55C0EA4917C64D3800DA6DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfinityImage;
+			productName = InfinityImage;
+			productReference = 55C0EA4B17C64D3800DA6DA8 /* InfinityImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55C0EA6B17C64D3800DA6DA8 /* InfinityImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C0EA8017C64D3800DA6DA8 /* Build configuration list for PBXNativeTarget "InfinityImageTests" */;
+			buildPhases = (
+				55C0EA6817C64D3800DA6DA8 /* Sources */,
+				55C0EA6917C64D3800DA6DA8 /* Frameworks */,
+				55C0EA6A17C64D3800DA6DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55C0EA7217C64D3800DA6DA8 /* PBXTargetDependency */,
+			);
+			name = InfinityImageTests;
+			productName = InfinityImageTests;
+			productReference = 55C0EA6C17C64D3800DA6DA8 /* InfinityImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55C0EA4317C64D3800DA6DA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = MentorMate;
+				TargetAttributes = {
+					55C0EA6B17C64D3800DA6DA8 = {
+						TestTargetID = 55C0EA4A17C64D3800DA6DA8;
+					};
+				};
+			};
+			buildConfigurationList = 55C0EA4617C64D3800DA6DA8 /* Build configuration list for PBXProject "InfinityImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55C0EA4217C64D3800DA6DA8;
+			productRefGroup = 55C0EA4C17C64D3800DA6DA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55C0EA4A17C64D3800DA6DA8 /* InfinityImage */,
+				55C0EA6B17C64D3800DA6DA8 /* InfinityImageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55C0EA4917C64D3800DA6DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C0EA6717C64D3800DA6DA8 /* Images.xcassets in Resources */,
+				55C0EA5917C64D3800DA6DA8 /* InfoPlist.strings in Resources */,
+				55C0EA6217C64D3800DA6DA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C0EA6A17C64D3800DA6DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C0EA7817C64D3800DA6DA8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55C0EA4717C64D3800DA6DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C0EA6517C64D3800DA6DA8 /* ViewController.m in Sources */,
+				55C0EA5F17C64D3800DA6DA8 /* AppDelegate.m in Sources */,
+				55C0EA5B17C64D3800DA6DA8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C0EA6817C64D3800DA6DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C0EA7A17C64D3800DA6DA8 /* InfinityImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55C0EA7217C64D3800DA6DA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55C0EA4A17C64D3800DA6DA8 /* InfinityImage */;
+			targetProxy = 55C0EA7117C64D3800DA6DA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55C0EA5717C64D3800DA6DA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55C0EA5817C64D3800DA6DA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55C0EA6017C64D3800DA6DA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55C0EA6117C64D3800DA6DA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55C0EA7617C64D3800DA6DA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55C0EA7717C64D3800DA6DA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55C0EA7B17C64D3800DA6DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55C0EA7C17C64D3800DA6DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55C0EA7E17C64D3800DA6DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfinityImage/InfinityImage-Prefix.pch";
+				INFOPLIST_FILE = "InfinityImage/InfinityImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55C0EA7F17C64D3800DA6DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfinityImage/InfinityImage-Prefix.pch";
+				INFOPLIST_FILE = "InfinityImage/InfinityImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		55C0EA8117C64D3800DA6DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InfinityImage.app/InfinityImage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfinityImage/InfinityImage-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "InfinityImageTests/InfinityImageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		55C0EA8217C64D3800DA6DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InfinityImage.app/InfinityImage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfinityImage/InfinityImage-Prefix.pch";
+				INFOPLIST_FILE = "InfinityImageTests/InfinityImageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55C0EA4617C64D3800DA6DA8 /* Build configuration list for PBXProject "InfinityImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C0EA7B17C64D3800DA6DA8 /* Debug */,
+				55C0EA7C17C64D3800DA6DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55C0EA7D17C64D3800DA6DA8 /* Build configuration list for PBXNativeTarget "InfinityImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C0EA7E17C64D3800DA6DA8 /* Debug */,
+				55C0EA7F17C64D3800DA6DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55C0EA8017C64D3800DA6DA8 /* Build configuration list for PBXNativeTarget "InfinityImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C0EA8117C64D3800DA6DA8 /* Debug */,
+				55C0EA8217C64D3800DA6DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55C0EA4317C64D3800DA6DA8 /* Project object */;
+}
