@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		554591CF17CB5CC600AF2166 /* pattern.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 554591CE17CB5CC600AF2166 /* pattern.jpg */; };
+		554591D217CB5DC600AF2166 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 554591D017CB5DC600AF2166 /* Icon.png */; };
+		554591D317CB5DC600AF2166 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 554591D117CB5DC600AF2166 /* Icon@2x.png */; };
+		558B9CBE17C76C6000F7D612 /* Coordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 558B9CBD17C76C6000F7D612 /* Coordinate.m */; };
+		558B9CC017C7868400F7D612 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558B9CBF17C7868400F7D612 /* CoreMotion.framework */; };
 		55C0EA4F17C64D3800DA6DA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C0EA4E17C64D3800DA6DA8 /* Foundation.framework */; };
 		55C0EA5117C64D3800DA6DA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C0EA5017C64D3800DA6DA8 /* CoreGraphics.framework */; };
 		55C0EA5317C64D3800DA6DA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C0EA5217C64D3800DA6DA8 /* UIKit.framework */; };
@@ -21,6 +26,7 @@
 		55C0EA7017C64D3800DA6DA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C0EA5217C64D3800DA6DA8 /* UIKit.framework */; };
 		55C0EA7817C64D3800DA6DA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55C0EA7617C64D3800DA6DA8 /* InfoPlist.strings */; };
 		55C0EA7A17C64D3800DA6DA8 /* InfinityImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C0EA7917C64D3800DA6DA8 /* InfinityImageTests.m */; };
+		55C0EA8517C64DED00DA6DA8 /* InfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C0EA8417C64DED00DA6DA8 /* InfiniteScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		554591CE17CB5CC600AF2166 /* pattern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pattern.jpg; sourceTree = "<group>"; };
+		554591D017CB5DC600AF2166 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		554591D117CB5DC600AF2166 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		558B9CBC17C76C6000F7D612 /* Coordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coordinate.h; sourceTree = "<group>"; };
+		558B9CBD17C76C6000F7D612 /* Coordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coordinate.m; sourceTree = "<group>"; };
+		558B9CBF17C7868400F7D612 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		558B9CC517C79F8200F7D612 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		55C0EA4B17C64D3800DA6DA8 /* InfinityImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinityImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C0EA4E17C64D3800DA6DA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55C0EA5017C64D3800DA6DA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +66,8 @@
 		55C0EA7517C64D3800DA6DA8 /* InfinityImageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InfinityImageTests-Info.plist"; sourceTree = "<group>"; };
 		55C0EA7717C64D3800DA6DA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55C0EA7917C64D3800DA6DA8 /* InfinityImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfinityImageTests.m; sourceTree = "<group>"; };
+		55C0EA8317C64DED00DA6DA8 /* InfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteScrollView.h; sourceTree = "<group>"; };
+		55C0EA8417C64DED00DA6DA8 /* InfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				558B9CC017C7868400F7D612 /* CoreMotion.framework in Frameworks */,
 				55C0EA5117C64D3800DA6DA8 /* CoreGraphics.framework in Frameworks */,
 				55C0EA5317C64D3800DA6DA8 /* UIKit.framework in Frameworks */,
 				55C0EA4F17C64D3800DA6DA8 /* Foundation.framework in Frameworks */,
@@ -101,6 +117,7 @@
 		55C0EA4D17C64D3800DA6DA8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				558B9CBF17C7868400F7D612 /* CoreMotion.framework */,
 				55C0EA4E17C64D3800DA6DA8 /* Foundation.framework */,
 				55C0EA5017C64D3800DA6DA8 /* CoreGraphics.framework */,
 				55C0EA5217C64D3800DA6DA8 /* UIKit.framework */,
@@ -112,13 +129,20 @@
 		55C0EA5417C64D3800DA6DA8 /* InfinityImage */ = {
 			isa = PBXGroup;
 			children = (
+				554591D017CB5DC600AF2166 /* Icon.png */,
+				554591D117CB5DC600AF2166 /* Icon@2x.png */,
+				554591CE17CB5CC600AF2166 /* pattern.jpg */,
 				55C0EA5D17C64D3800DA6DA8 /* AppDelegate.h */,
 				55C0EA5E17C64D3800DA6DA8 /* AppDelegate.m */,
 				55C0EA6017C64D3800DA6DA8 /* Main.storyboard */,
+				558B9CC517C79F8200F7D612 /* Constants.h */,
 				55C0EA6317C64D3800DA6DA8 /* ViewController.h */,
 				55C0EA6417C64D3800DA6DA8 /* ViewController.m */,
-				55C0EA6617C64D3800DA6DA8 /* Images.xcassets */,
 				55C0EA5517C64D3800DA6DA8 /* Supporting Files */,
+				55C0EA8317C64DED00DA6DA8 /* InfiniteScrollView.h */,
+				55C0EA8417C64DED00DA6DA8 /* InfiniteScrollView.m */,
+				558B9CBC17C76C6000F7D612 /* Coordinate.h */,
+				558B9CBD17C76C6000F7D612 /* Coordinate.m */,
 			);
 			path = InfinityImage;
 			sourceTree = "<group>";
@@ -126,6 +150,7 @@
 		55C0EA5517C64D3800DA6DA8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				55C0EA6617C64D3800DA6DA8 /* Images.xcassets */,
 				55C0EA5617C64D3800DA6DA8 /* InfinityImage-Info.plist */,
 				55C0EA5717C64D3800DA6DA8 /* InfoPlist.strings */,
 				55C0EA5A17C64D3800DA6DA8 /* main.m */,
@@ -229,7 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				55C0EA6717C64D3800DA6DA8 /* Images.xcassets in Resources */,
+				554591D317CB5DC600AF2166 /* Icon@2x.png in Resources */,
 				55C0EA5917C64D3800DA6DA8 /* InfoPlist.strings in Resources */,
+				554591D217CB5DC600AF2166 /* Icon.png in Resources */,
+				554591CF17CB5CC600AF2166 /* pattern.jpg in Resources */,
 				55C0EA6217C64D3800DA6DA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +280,8 @@
 				55C0EA6517C64D3800DA6DA8 /* ViewController.m in Sources */,
 				55C0EA5F17C64D3800DA6DA8 /* AppDelegate.m in Sources */,
 				55C0EA5B17C64D3800DA6DA8 /* main.m in Sources */,
+				558B9CBE17C76C6000F7D612 /* Coordinate.m in Sources */,
+				55C0EA8517C64DED00DA6DA8 /* InfiniteScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +484,7 @@
 				55C0EA7F17C64D3800DA6DA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55C0EA8017C64D3800DA6DA8 /* Build configuration list for PBXNativeTarget "InfinityImageTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +493,7 @@
 				55C0EA8217C64D3800DA6DA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

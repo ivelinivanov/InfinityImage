@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (nonatomic, strong) CMMotionManager* manager;
 @end
 
 @implementation ViewController
@@ -17,13 +17,24 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.manager = [[CMMotionManager alloc] init];
+    self.manager.accelerometerUpdateInterval = kAccelerometerUpdateInterval;
+    
+    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+    
+    [self.manager startAccelerometerUpdatesToQueue: queue withHandler:^(CMAccelerometerData *accelerometerData, NSError *error)
+    {
+        CGPoint newOffset = self.scrollView.contentOffset;
+        
+        newOffset.x += accelerometerData.acceleration.x * kAccelerationSpeed;
+        newOffset.y += accelerometerData.acceleration.y * kAccelerationSpeed;
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            self.scrollView.contentOffset = newOffset;
+        });
+    }];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
